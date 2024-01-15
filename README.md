@@ -36,7 +36,7 @@ Instalation proccess of wsl (Ubuntu distribution), spark and pycharm IDE on win 
   nano~/.bashrc
   ```
   
-* srcoll down to the bottom of the file with arrows and paste:
+* scroll down to the bottom of the file with arrows and paste:
   
   ```
   export JAVA_HOME=”/usr/lib/jvm/java-8-openjdk-amd64”  
@@ -59,11 +59,11 @@ Instalation proccess of wsl (Ubuntu distribution), spark and pycharm IDE on win 
   ```
   cd Downloads
   ```
-  
-* download current version of spark to Download folder, if needed change spark and hadoop versions
+* those will create Ubuntu and Downloads folder inside it
+* download current version of spark to Downloads folder, if needed change spark and hadoop versions
   
   ```
-  wget https://dIcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
+  wget https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
   ```
   
 * create Programs folder and unpack spark to it
@@ -86,7 +86,7 @@ Instalation proccess of wsl (Ubuntu distribution), spark and pycharm IDE on win 
   ```
   
   ```
-  export SPARK-HOME=”/mnt/c/Users/YOU/Ubuntu/Programs/spark-3.5.0-bin-hadoop3”
+  export SPARK_HOME=”/mnt/c/Users/YOU/Ubuntu/Programs/spark-3.5.0-bin-hadoop3”
   ```
 ## 4. python pip and pyspark installation
 * since Ubuntu already has python 3.10 preinstalled we need to install pip
@@ -135,7 +135,7 @@ Instalation proccess of wsl (Ubuntu distribution), spark and pycharm IDE on win 
   ```
 
 ## 6. some additional commands for win11 powershell:
-* starting wsl on windows, open powershell and type:\
+* starting wsl on windows, open powershell and type:
   ```
   wsl
   ```
