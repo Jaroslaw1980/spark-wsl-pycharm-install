@@ -2,13 +2,13 @@
 Instalation proccess of wsl (Ubuntu distribution), spark and pycharm IDE on win 11
 
 ## 1. wsl installation
-* search for *Powershell* on the win11 taskbar and open it
+* search for *Powershell* on the win11 searchbar and open it
 * on Powershell type:
 
   ```
   wsl --install -d Ubuntu
   ```
-
+* this will install Ubuntu distribution
 * after installation linux will ask for username and password
 * ! when typing password letters/numbers won't show but they will be inputed
 * after installation update and upgrade linux by typing:
@@ -89,6 +89,7 @@ Instalation proccess of wsl (Ubuntu distribution), spark and pycharm IDE on win 
   export SPARK-HOME=”/mnt/c/Users/YOU/Ubuntu/Programs/spark-3.5.0-bin-hadoop3”
   ```
 ## 4. python pip and pyspark installation
+* since Ubuntu already has python 3.10 preinstalled we need to install pip
 * type this command to install pip for linux
   
   ```
