@@ -1,5 +1,5 @@
 # Spark and wsl install with pycharm
-Instalation process of wsl (Ubuntu distribution), spark and pycharm IDE on win 11
+Installation process of wsl (Ubuntu distribution), spark and pycharm IDE on win 11
 
 ## 1. wsl installation
 * search for *Powershell* on the win11 searchbar and open it
