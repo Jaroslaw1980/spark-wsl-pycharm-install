@@ -33,7 +33,7 @@ Installation process of wsl (Ubuntu distribution), spark and pycharm IDE on win 
 * after installation open nano editor by:
 
   ```
-  nano~/.bashrc
+  nano ~/.bashrc
   ```
   
 * scroll down to the bottom of the file with arrows and paste:
@@ -82,7 +82,7 @@ Installation process of wsl (Ubuntu distribution), spark and pycharm IDE on win 
 * open nano editor and paste variable, remember to set your own user name into the path under 'YOU' and also right spark/hadoop versions
   
   ```
-  nano~/.bashrc
+  nano ~/.bashrc
   ```
   
   ```
